@@ -1,7 +1,26 @@
 # CORTEX - Knowledge Graph Memory System
 
-A clean, personal AI assistant with persistent memory stored in Neo4j.
 
+Here is a gist of entire project architecture and data flow -
+
+## [1] INPUT & CONTEXT LAYER
+<img width="1602" height="512" alt="image" src="https://github.com/user-attachments/assets/df665c31-5c9e-4444-87f1-0db9e738bac8" />
+
+## [2] INTENT & EXTRACTION [3] HYBRID SEARCH ENGINE [4] GRAPH MUTATION ENGINE
+<img width="1452" height="877" alt="image" src="https://github.com/user-attachments/assets/a434081a-55bd-4f55-9178-eb9d8dfd6c74" />
+
+## [5] SYNTHESIS & OUTPUT
+<img width="1318" height="265" alt="image" src="https://github.com/user-attachments/assets/4105e421-4578-458c-b837-cfdebb6cafa9" />
+
+## Data Orchestrator
+<img width="783" height="819" alt="image" src="https://github.com/user-attachments/assets/fc98127a-6d07-499a-8de2-b00398e002f2" />
+
+
+## Architecture
+<img width="3074" height="1945" alt="image" src="https://github.com/user-attachments/assets/8ddcef94-0f3b-4755-a0e1-25f20f1c78c3" />
+
+
+# reference - https://arxiv.org/pdf/2504.19413
 ## 🚀 Quick Start
 
 ```bash
